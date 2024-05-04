@@ -1,7 +1,8 @@
 # Orallama
-Acknowledgments to the reference project of this work: [apeatling/ollama-voice-mac](https://github.com/apeatling/ollama-voice-mac)
 
-## Installing and running
+Great thanks to the reference project of this work: [apeatling/ollama-voice-mac](https://github.com/apeatling/ollama-voice-mac)
+
+## Installing and running🦙
 
 1. Install [Ollama](https://ollama.ai).
 2. Download the a model, Mistral 7b is a actually a ood choice using the `ollama pull mistral` command.
