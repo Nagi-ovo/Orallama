@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ollama-voice-mac"
+version = "0.1.0"
+description = ""
+authors = ["Nagi-ovo <13264500190@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+openai-whisper = {git = "https://github.com/openai/whisper.git", rev = "ba3f3cd54b0e5b8ce1ab3de13e32122d0d5f98ab"}
+soundfile = "^0.12.1"
+pyyaml = "^6.0.1"
+pyaudio = "^0.2.14"
+ollama = "^0.1.9"
+pyobjc = "9.0.1"
+wave = "0.0.2"
+openai = "1.7.0"
+logging = "^0.4.9.6"
+edge-tts = "^6.1.11"
+asyncio = "^3.4.3"
+httpx = {extras = ["socks"], version = "^0.27.0"}
+torch = "2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
